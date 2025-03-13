@@ -32,7 +32,8 @@ console.log('statement true!');
 
 
 //opgave 4: Skriv en If then statement der kan finde ud af om F er "undefined" eller har en værdi, ved at bruge !.
-if (!(undefined || ) ) {   
-    console.log('statement false!');
-} else
-console.log('statement true!');
+if (typeof F === "undefined") {
+    console.log("F er undefined");
+} else {
+    console.log("F har en værdi");
+}
